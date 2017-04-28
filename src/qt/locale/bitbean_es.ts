@@ -215,8 +215,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Para &quot;Staking&quot; solamente</translation>
+        <source>For sprouting only</source>
+        <translation>Para &quot;Sprouting&quot; solamente</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -620,7 +620,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation type="unfinished">Se ha producido un error fatal. BitBean ya no puede continuar de forma segura y cerrará.</translation>
     </message>
@@ -645,7 +645,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <translation type="unfinished">Mostrar vista general del monedero</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -655,7 +655,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -665,7 +665,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <translation type="unfinished">Mostrar la lista de direcciones para recibir pagos</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation type="unfinished">&amp;Transacciones</translation>
     </message>
@@ -984,7 +984,7 @@ Dirección: %4
         <translation type="obsolete">Hubo un error al tratar de salvar los datos de su monedero a la nueva ubicación.</translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform>%n segundo</numerusform>
@@ -1000,8 +1000,8 @@ Dirección: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n hora</numerusform>
@@ -1009,7 +1009,7 @@ Dirección: %4
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1050,7 +1050,7 @@ Dirección: %4
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n día</numerusform>
@@ -1058,7 +1058,7 @@ Dirección: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1116,34 +1116,38 @@ Dirección: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished">Staking.&lt;br&gt;Su contribución es %1&lt;br&gt;Contribución de la red es %2&lt;br&gt;Tiempo esperado para ganar la recompensa es %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Sprouting.&lt;br&gt;Su contribución es %1&lt;br&gt;Contribución de la red es %2&lt;br&gt;Tiempo esperado para ganar la recompensa es %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation type="unfinished">No esta &quot;Staking&quot; porque monedera está bloqueada</translation>
+        <source>Not sprouting because wallet is locked</source>
+        <translation type="unfinished">No esta &quot;Sprouting&quot; porque monedera está bloqueada</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation type="unfinished">No esta &quot;Staking&quot; porque monedera está desconectada</translation>
+        <source>Not sprouting because wallet is offline</source>
+        <translation type="unfinished">No esta &quot;Sprouting&quot; porque monedera está desconectada</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation type="unfinished">No esta &quot;Staking&quot; porque monedera está sincronizando</translation>
+        <source>Not sprouting because wallet is syncing</source>
+        <translation type="unfinished">No esta &quot;Sprouting&quot; porque monedera está sincronizando</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
-        <translation type="unfinished">No estás &quot;Staking&quot;</translation>
+        <source>Not sprouting</source>
+        <translation type="unfinished">No estás &quot;Sprouting&quot;</translation>
     </message>
 </context>
 <context>
@@ -1347,24 +1351,24 @@ Dirección: %4
         <translation type="obsolete">Descargado %1 bloques de historial de transacciones.</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="obsolete">Staking.&lt;br&gt;Su contribución es %1&lt;br&gt;Contribución de la red es %2&lt;br&gt;Tiempo esperado para ganar la recompensa es %3</translation>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Sprouting.&lt;br&gt;Su contribución es %1&lt;br&gt;Contribución de la red es %2&lt;br&gt;Tiempo esperado para ganar la recompensa es %3</translation>
     </message>
     <message>
-        <source>Not staking because wallet is locked</source>
-        <translation type="obsolete">No esta &quot;Staking&quot; porque monedera está bloqueada</translation>
+        <source>Not sprouting because wallet is locked</source>
+        <translation type="obsolete">No esta &quot;Sprouting&quot; porque monedera está bloqueada</translation>
     </message>
     <message>
-        <source>Not staking because wallet is offline</source>
-        <translation type="obsolete">No esta &quot;Staking&quot; porque monedera está desconectada</translation>
+        <source>Not sprouting because wallet is offline</source>
+        <translation type="obsolete">No esta &quot;Sprouting&quot; porque monedera está desconectada</translation>
     </message>
     <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation type="obsolete">No esta &quot;Staking&quot; porque monedera está sincronizando</translation>
+        <source>Not sprouting because wallet is syncing</source>
+        <translation type="obsolete">No esta &quot;Sprouting&quot; porque monedera está sincronizando</translation>
     </message>
     <message>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation type="obsolete">No esta &quot;Staking&quot; ya que no tiene monedas maduras</translation>
+        <source>Not sprouting because you don&apos;t have mature coins</source>
+        <translation type="obsolete">No esta &quot;Sprouting&quot; ya que no tiene monedas maduras</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s) ago</source>
@@ -1499,8 +1503,8 @@ Dirección: %4
         </translation>
     </message>
     <message>
-        <source>Not staking</source>
-        <translation type="obsolete">No estás &quot;Staking&quot;</translation>
+        <source>Not sprouting</source>
+        <translation type="obsolete">No estás &quot;Sprouting&quot;</translation>
     </message>
     <message>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
@@ -1868,21 +1872,17 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <translation>Comisión de &amp;transacciones</translation>
     </message>
     <message>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="obsolete">Cantidad reservada no participa en el &quot;Staking&quot; y por lo tanto se puede gastar en cualquier momento.</translation>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
+        <translation type="unfinished">Cantidad reservada no participa en el &quot;Sprouting&quot; y por lo tanto se puede gastar en cualquier momento.</translation>
     </message>
     <message>
-        <location line="-15"/>
+        <location line="-46"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. A fee of 5 BITB is recommended. Fees help support the BitBean network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="+61"/>
         <source>Reserve</source>
         <translation>Reserva</translation>
     </message>
@@ -2104,8 +2104,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red BitBean después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation type="obsolete">Stake:</translation>
+        <source>Sprout:</source>
+        <translation type="obsolete">Sprout:</translation>
     </message>
     <message>
         <location line="-331"/>
@@ -2251,8 +2251,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <translation type="obsolete">Total de transacciones que aún no se han confirmado, y aún no cuentan para el balance actual</translation>
     </message>
     <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation type="obsolete">Total de las monedas que fueron &quot;Staked&quot;, y aún no cuentan para el balance actual</translation>
+        <source>Total of coins that was sproutd, and do not yet count toward the current balance</source>
+        <translation type="obsolete">Total de las monedas que fueron &quot;Sproutd&quot;, y aún no cuentan para el balance actual</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+130"/>
@@ -4087,7 +4087,7 @@ Si el archivo no existe, créelo con permiso de lectura solamente del propietari
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4522,8 +4522,8 @@ Si el archivo no existe, créelo con permiso de lectura solamente del propietari
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation type="unfinished">Error: Monedero desbloqueado sólo para hacer &quot;stake&quot;, no es posible crear una transacción.</translation>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
+        <translation type="unfinished">Error: Monedero desbloqueado sólo para hacer &quot;sprout&quot;, no es posible crear una transacción.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4655,8 +4655,8 @@ Si el archivo no existe, créelo con permiso de lectura solamente del propietari
         <translation type="obsolete">Enlazar a la dirección dada. Utilice la notación [host]:puerto para IPv6</translation>
     </message>
     <message>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation type="obsolete">Pon tus monedas en participación &quot;Stake&quot; para dar soporte a la red y ganar alguna recompensa (por defecto: 1)</translation>
+        <source>Sprout your coins to support network and gain reward (default: 1)</source>
+        <translation type="obsolete">Pon tus monedas en participación &quot;Sprout&quot; para dar soporte a la red y ganar alguna recompensa (por defecto: 1)</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
@@ -4991,8 +4991,8 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;BitBean Alert&quot; admin@foo.
         <translation type="obsolete">Cifras aceptables: (por defecto: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation type="obsolete">Error: Monedero desbloqueado sólo para hacer &quot;stake&quot;, no es posible crear una transacción.</translation>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
+        <translation type="obsolete">Error: Monedero desbloqueado sólo para hacer &quot;sprout&quot;, no es posible crear una transacción.</translation>
     </message>
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>

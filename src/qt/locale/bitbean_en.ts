@@ -226,7 +226,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For sprouting only</source>
         <translation>For sprouting only</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ This means a fee of at least %2 is required.</translation>
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation>A fatal error occurred. BitBean can no longer continue safely and will quit.</translation>
     </message>
@@ -656,7 +656,7 @@ This means a fee of at least %2 is required.</translation>
         <translation>Show general overview of wallet</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation>Send Beans</translation>
     </message>
@@ -666,7 +666,7 @@ This means a fee of at least %2 is required.</translation>
         <translation>Send Beans to a BitBean address</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation>&amp;Receive Beans</translation>
     </message>
@@ -676,7 +676,7 @@ This means a fee of at least %2 is required.</translation>
         <translation>Show the list of addresses for receiving payments</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transactions</translation>
     </message>
@@ -991,7 +991,7 @@ Address: %4
         <translation type="obsolete">There was an error trying to save the wallet data to the new location.</translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation>
             <numerusform>%n second</numerusform>
@@ -1007,8 +1007,8 @@ Address: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation>
             <numerusform>%n hour</numerusform>
@@ -1016,7 +1016,7 @@ Address: %4
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1057,7 +1057,7 @@ Address: %4
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation>
             <numerusform>%n day</numerusform>
@@ -1065,7 +1065,7 @@ Address: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1123,33 +1123,37 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation>Not sprouting because wallet is locked</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation>Not sprouting because wallet is offline</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation>Not sprouting because wallet is syncing</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation>Not sprouting because you don&apos;t have mature beans</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation>Not sprouting</translation>
     </message>
 </context>
@@ -1899,8 +1903,8 @@ Address: %4
         <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the BitBean network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation type="obsolete">Stake:</translation>
+        <source>Sprout:</source>
+        <translation type="obsolete">Sprout:</translation>
     </message>
     <message>
         <location line="-331"/>
@@ -2074,8 +2078,8 @@ Address: %4
         <translation type="obsolete">Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</translation>
     </message>
     <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation type="obsolete">Total of coins that was staked, and do not yet count toward the current balance</translation>
+        <source>Total of coins that was sproutd, and do not yet count toward the current balance</source>
+        <translation type="obsolete">Total of coins that was sproutd, and do not yet count toward the current balance</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+130"/>
@@ -3797,7 +3801,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation></translation>
     </message>
     <message>
@@ -4213,8 +4217,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Error: Wallet unlocked for staking only, unable to create transaction.</translation>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
+        <translation>Error: Wallet unlocked for sprouting only, unable to create transaction.</translation>
     </message>
     <message>
         <location line="+1"/>

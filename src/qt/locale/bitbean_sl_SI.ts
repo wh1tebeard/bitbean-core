@@ -204,8 +204,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Samo za staking.</translation>
+        <source>For sprouting only</source>
+        <translation>Samo za sprouting.</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -609,7 +609,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation type="unfinished">Prišlo je do usodne napake. Program BitBean se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
@@ -634,7 +634,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <translation type="unfinished">Pokaži splošen pregled denarnice</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -644,7 +644,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -654,7 +654,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <translation type="unfinished">Prikaži seznam naslovov za prejemanje plačil. </translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation type="unfinished">&amp;Transakcije</translation>
     </message>
@@ -985,7 +985,7 @@ Naslov: %4
         <translation type="obsolete">Prišlo je do napake ob poskušanju shranjevanja datoteke denarnice na novo lokacijo.</translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform>%n sekundo</numerusform>
@@ -1005,8 +1005,8 @@ Naslov: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n ura</numerusform>
@@ -1016,7 +1016,7 @@ Naslov: %4
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1057,7 +1057,7 @@ Naslov: %4
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n dan</numerusform>
@@ -1067,7 +1067,7 @@ Naslov: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1127,33 +1127,37 @@ Naslov: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished">Deležeje [Staking].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Deležeje [Sprouting].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="unfinished">Ne deležite ker je denarnica zakljenjena</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="unfinished">Ne deležite ker denarnica ni povezana</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="unfinished">Ne deležite ker se denarnica sinhronizira z omrežjem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="unfinished">Ne deležite</translation>
     </message>
 </context>
@@ -1362,23 +1366,23 @@ Naslov: %4
         <translation type="obsolete">Prenešenih %1 blokov transakcijske zgodovine.</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="obsolete">Deležeje [Staking].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Deležeje [Sprouting].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
     </message>
     <message>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="obsolete">Ne deležite ker je denarnica zakljenjena</translation>
     </message>
     <message>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="obsolete">Ne deležite ker denarnica ni povezana</translation>
     </message>
     <message>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="obsolete">Ne deležite ker se denarnica sinhronizira z omrežjem</translation>
     </message>
     <message>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not sprouting because you don&apos;t have mature coins</source>
         <translation type="obsolete">Ne deležite ker nimate zrelih kovancev. </translation>
     </message>
     <message numerus="yes">
@@ -1530,7 +1534,7 @@ Naslov: %4
         </translation>
     </message>
     <message>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="obsolete">Ne deležite</translation>
     </message>
     <message>
@@ -1899,21 +1903,17 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <translation>Nakazilo plačila &amp; provizija</translation>
     </message>
     <message>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="obsolete">Rezervirana količina ne deleži in je tako na voljo za potrošnjo.</translation>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
+        <translation type="unfinished">Rezervirana količina ne deleži in je tako na voljo za potrošnjo.</translation>
     </message>
     <message>
-        <location line="-15"/>
+        <location line="-46"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. A fee of 5 BITB is recommended. Fees help support the BitBean network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="+61"/>
         <source>Reserve</source>
         <translation>Rezerva</translation>
     </message>
@@ -2135,7 +2135,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z BitBean omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
-        <source>Stake:</source>
+        <source>Sprout:</source>
         <translation type="obsolete">Deleženje:</translation>
     </message>
     <message>
@@ -2282,7 +2282,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <translation type="obsolete">Znesek transakcij, ki še niso bile potrjene in se še ne upoštevajo v trenutnem stanju na računu.</translation>
     </message>
     <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that was sproutd, and do not yet count toward the current balance</source>
         <translation type="obsolete">Znesek kovancev, ki so bili v deleženju in se še ne upoštevajo v trenutnem stanju na računu.</translation>
     </message>
     <message>
@@ -4122,7 +4122,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4547,7 +4547,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4677,7 +4677,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="obsolete">Naveži na dani naslov. Uporabi [host]:port ukaz za IPv6</translation>
     </message>
     <message>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Sprout your coins to support network and gain reward (default: 1)</source>
         <translation type="obsolete">Deleži svoje kovance za podporo omrežja in pridobi nagrado (default: 1)</translation>
     </message>
     <message>

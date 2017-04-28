@@ -205,7 +205,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For sprouting only</source>
         <translation>Vain osakkuutta varten</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation type="unfinished">Vakava virhe kohdattu. BitBean-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
@@ -635,7 +635,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation type="unfinished">Lompakon tilanteen yleiskatsaus</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -645,7 +645,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -655,7 +655,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation type="unfinished">Näytä osoitelista vastaanottaaksesi maksuja</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation type="unfinished">&amp;Rahansiirrot</translation>
     </message>
@@ -973,7 +973,7 @@ Osoite: %4</translation>
         <translation type="obsolete">Virhe tallentaessa lompakkotiedostoa uuteen sijaintiinsa.</translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform>%n sekunti</numerusform>
@@ -989,8 +989,8 @@ Osoite: %4</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n tunti</numerusform>
@@ -998,7 +998,7 @@ Osoite: %4</translation>
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1039,7 +1039,7 @@ Osoite: %4</translation>
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n päivä</numerusform>
@@ -1047,7 +1047,7 @@ Osoite: %4</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1105,33 +1105,37 @@ Osoite: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished">Osakkaana.&lt;br&gt;Osuutesi on %1&lt;br&gt;Verkon osuus on %2&lt;br&gt;Odotettu aika palkkion ansaitsemiselle on %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Osakkaana.&lt;br&gt;Osuutesi on %1&lt;br&gt;Verkon osuus on %2&lt;br&gt;Odotettu aika palkkion ansaitsemiselle on %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="unfinished">Ei osakkaana koska lompakko on lukittu</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="unfinished">Ei osakkaana koska lompakko on offline-tilassa</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="unfinished">Ei osakkaana koska lompakko synkronoituu</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="unfinished">Ei osakkaana</translation>
     </message>
 </context>
@@ -1336,23 +1340,23 @@ Osoite: %4</translation>
         <translation type="obsolete">Ladattu %1 lohkoa rahansiirtohistoriasta.</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation type="obsolete">Osakkaana.&lt;br&gt;Osuutesi on %1&lt;br&gt;Verkon osuus on %2&lt;br&gt;Odotettu aika palkkion ansaitsemiselle on %3</translation>
     </message>
     <message>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="obsolete">Ei osakkaana koska lompakko on lukittu</translation>
     </message>
     <message>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="obsolete">Ei osakkaana koska lompakko on offline-tilassa</translation>
     </message>
     <message>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="obsolete">Ei osakkaana koska lompakko synkronoituu</translation>
     </message>
     <message>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not sprouting because you don&apos;t have mature coins</source>
         <translation type="obsolete">Ei osakkaana koska sinulle ei ole erääntynyt kolikoita</translation>
     </message>
     <message numerus="yes">
@@ -1487,7 +1491,7 @@ Osoite: %4</translation>
         </translation>
     </message>
     <message>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="obsolete">Ei osakkaana</translation>
     </message>
     <message>
@@ -1856,21 +1860,17 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Maksa rahansiirtopalkkio</translation>
     </message>
     <message>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="obsolete">Varattu määrä ei vaadi osakkuutta jonka vuoksi se on mahdollista käyttää milloin tahansa.</translation>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
+        <translation type="unfinished">Varattu määrä ei vaadi osakkuutta jonka vuoksi se on mahdollista käyttää milloin tahansa.</translation>
     </message>
     <message>
-        <location line="-15"/>
+        <location line="-46"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. A fee of 5 BITB is recommended. Fees help support the BitBean network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="+61"/>
         <source>Reserve</source>
         <translation>Varattuna</translation>
     </message>
@@ -2092,7 +2092,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti BitBean-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
-        <source>Stake:</source>
+        <source>Sprout:</source>
         <translation type="obsolete">Vaihdos:</translation>
     </message>
     <message>
@@ -2239,7 +2239,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation type="obsolete">Kaikki vahvistamattomat rahansiirrot yhteensä, joita ei vielä lasketa saldoosi.</translation>
     </message>
     <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that was sproutd, and do not yet count toward the current balance</source>
         <translation type="obsolete">Kolikoiden kokoinaismäärä, jotka eivät vielä ole laskettu tämänhetkiseen saldoon.</translation>
     </message>
     <message>
@@ -4070,7 +4070,7 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4487,7 +4487,7 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="unfinished">Virhe: Lompakko avattu vain osakkuutta varten, rahansiirtoja ei voida luoda.</translation>
     </message>
     <message>
@@ -4617,7 +4617,7 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
         <translation type="obsolete">Liitä annettuun osoitteeseen. Käytä [host]:port merkintää IPv6:lle</translation>
     </message>
     <message>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Sprout your coins to support network and gain reward (default: 1)</source>
         <translation type="obsolete">Panosta rahasi tukeaksi verkkoa ja saadaksesi palkkiota (oletus: 1)</translation>
     </message>
     <message>
@@ -4950,7 +4950,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation type="obsolete">Hyväksytyt salaustyypit (oletus: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="obsolete">Virhe: Lompakko avattu vain osakkuutta varten, rahansiirtoja ei voida luoda.</translation>
     </message>
     <message>

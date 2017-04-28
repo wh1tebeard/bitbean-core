@@ -212,7 +212,7 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For sprouting only</source>
         <translation>Len pre stávkovanie</translation>
     </message>
     <message>
@@ -617,7 +617,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation type="unfinished">Došlo k závažnej chybe. BitBean už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
@@ -642,7 +642,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation type="unfinished">Zobraziť celkový prehľad o peňaženke</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -652,7 +652,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -662,7 +662,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation type="unfinished">Zobraziť zoznam adries pre príjem platieb</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation type="unfinished">&amp;Transakcie</translation>
     </message>
@@ -986,7 +986,7 @@ Adresa: %4</translation>
         <translation type="obsolete">Došlo k chybe pri pokuse o uloženie dát peňaženky do nového umiestnenia.</translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform>%n sekunda</numerusform>
@@ -1004,8 +1004,8 @@ Adresa: %4</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n hodina</numerusform>
@@ -1014,7 +1014,7 @@ Adresa: %4</translation>
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1055,7 +1055,7 @@ Adresa: %4</translation>
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n deň</numerusform>
@@ -1064,7 +1064,7 @@ Adresa: %4</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1123,33 +1123,37 @@ Adresa: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished">Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="unfinished">Nestávkujem pretože peňaženka je zamknutá</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="unfinished">Nestávkujem pretože peňaženka je offline</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="unfinished">Nestávkujem pretože peňaženka sa synchronizuje</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="unfinished">Nestávkuje sa</translation>
     </message>
 </context>
@@ -1356,23 +1360,23 @@ Adresa: %4</translation>
         <translation type="obsolete">Stiahnutých %1 blokov z transakčnej histórie.</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation type="obsolete">Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
     </message>
     <message>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="obsolete">Nestávkujem pretože peňaženka je zamknutá</translation>
     </message>
     <message>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="obsolete">Nestávkujem pretože peňaženka je offline</translation>
     </message>
     <message>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="obsolete">Nestávkujem pretože peňaženka sa synchronizuje</translation>
     </message>
     <message>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not sprouting because you don&apos;t have mature coins</source>
         <translation type="obsolete">Nestávkujem pretože nemáte odležané mince</translation>
     </message>
     <message numerus="yes">
@@ -1515,7 +1519,7 @@ Adresa: %4</translation>
         </translation>
     </message>
     <message>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="obsolete">Nestávkuje sa</translation>
     </message>
     <message>
@@ -1884,21 +1888,17 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Zaplatiť transakčné &amp;poplatky</translation>
     </message>
     <message>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="obsolete">Rezervované množstvo sa nepodieľa na stávkovaní a preto je použiteľné kedykoľvek.</translation>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
+        <translation type="unfinished">Rezervované množstvo sa nepodieľa na stávkovaní a preto je použiteľné kedykoľvek.</translation>
     </message>
     <message>
-        <location line="-15"/>
+        <location line="-46"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. A fee of 5 BITB is recommended. Fees help support the BitBean network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="+61"/>
         <source>Reserve</source>
         <translation>Rezerva</translation>
     </message>
@@ -2120,7 +2120,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou BitBean po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
-        <source>Stake:</source>
+        <source>Sprout:</source>
         <translation type="obsolete">V stávke:</translation>
     </message>
     <message>
@@ -2267,7 +2267,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation type="obsolete">Súčet transakcií, ktoré neboli ešte potvrdené, a ešte nezapočítané do aktuálneho zostatku</translation>
     </message>
     <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that was sproutd, and do not yet count toward the current balance</source>
         <translation type="obsolete">Súčet mincí, ktoré sú v stávke a ešte neboli započítané do aktuálneho zostatku</translation>
     </message>
     <message>
@@ -4102,7 +4102,7 @@ Ak súbor neexistuje, vytvorte ho s oprávnením pre čítanie len vlastníkom (
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4527,7 +4527,7 @@ Ak súbor neexistuje, vytvorte ho s oprávnením pre čítanie len vlastníkom (
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="unfinished">Chyba: Peňaženka odomknuté len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
     </message>
     <message>
@@ -4657,7 +4657,7 @@ Ak súbor neexistuje, vytvorte ho s oprávnením pre čítanie len vlastníkom (
         <translation type="obsolete">Spojiť do danej adresy. Použite [host]:port zápis pre IPv6</translation>
     </message>
     <message>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Sprout your coins to support network and gain reward (default: 1)</source>
         <translation type="obsolete">Nechajte stávkovať vaše mince pre podporu siete a získajte odmenu (predvolené: 1)</translation>
     </message>
     <message>
@@ -4982,7 +4982,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BitBean Alert&quot; admin@foo.c
         <translation type="obsolete">Akceptovateľné ciphers (predvolené: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="obsolete">Chyba: Peňaženka odomknuté len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
     </message>
     <message>

@@ -212,8 +212,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Pour &quot;staking&quot; seulement</translation>
+        <source>For sprouting only</source>
+        <translation>Pour &quot;sprouting&quot; seulement</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -617,7 +617,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation type="unfinished">Une erreur fatale a été rencontrée. L&apos;application BitBean ne peut plus être s&apos;exécuter de façon correcte et doit se terminer.</translation>
     </message>
@@ -642,7 +642,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <translation type="unfinished">Afficher une vue d’ensemble du portefeuille</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -652,7 +652,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -662,7 +662,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <translation type="unfinished">Montrer la liste d&apos;adresses de réception des paiements</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation type="unfinished">&amp;Transactions</translation>
     </message>
@@ -981,7 +981,7 @@ Adresse : %4
         <translation type="obsolete">Une erreur a été rencontrée lors de la tentative de sauvegarde du portefeuille vers la nouvelle destination.</translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform>%n seconde</numerusform>
@@ -997,8 +997,8 @@ Adresse : %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n heure</numerusform>
@@ -1006,7 +1006,7 @@ Adresse : %4
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1047,7 +1047,7 @@ Adresse : %4
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n jour</numerusform>
@@ -1055,7 +1055,7 @@ Adresse : %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1113,33 +1113,37 @@ Adresse : %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished">Staking.&lt;br&gt;Votre poids est de  %1&lt;br&gt;Le poids du réseau est de %2&lt;br&gt;Temps estimé avant récompense %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Sprouting.&lt;br&gt;Votre poids est de  %1&lt;br&gt;Le poids du réseau est de %2&lt;br&gt;Temps estimé avant récompense %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="unfinished">Ne stack pas, votre portefeuilles est verouillé</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="unfinished">Ne stack pas, votre portefeuilles est hors ligne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="unfinished">Ne stack pas, votre portefeuille est en cours de synchronisation</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="unfinished">Pas de stacking</translation>
     </message>
 </context>
@@ -1344,23 +1348,23 @@ Adresse : %4
         <translation type="obsolete">Téléchargement de blocs de l&apos;historique de transactions : 1% blocks</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="obsolete">Staking.&lt;br&gt;Votre poids est de  %1&lt;br&gt;Le poids du réseau est de %2&lt;br&gt;Temps estimé avant récompense %3</translation>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">Sprouting.&lt;br&gt;Votre poids est de  %1&lt;br&gt;Le poids du réseau est de %2&lt;br&gt;Temps estimé avant récompense %3</translation>
     </message>
     <message>
-        <source>Not staking because wallet is locked</source>
+        <source>Not sprouting because wallet is locked</source>
         <translation type="obsolete">Ne stack pas, votre portefeuilles est verouillé</translation>
     </message>
     <message>
-        <source>Not staking because wallet is offline</source>
+        <source>Not sprouting because wallet is offline</source>
         <translation type="obsolete">Ne stack pas, votre portefeuilles est hors ligne</translation>
     </message>
     <message>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not sprouting because wallet is syncing</source>
         <translation type="obsolete">Ne stack pas, votre portefeuille est en cours de synchronisation</translation>
     </message>
     <message>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not sprouting because you don&apos;t have mature coins</source>
         <translation type="obsolete">Ne stack pas, vos monnaies ne sont pas encore matures</translation>
     </message>
     <message numerus="yes">
@@ -1496,7 +1500,7 @@ Adresse : %4
         </translation>
     </message>
     <message>
-        <source>Not staking</source>
+        <source>Not sprouting</source>
         <translation type="obsolete">Pas de stacking</translation>
     </message>
     <message>
@@ -1865,21 +1869,17 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <translation>Payer des &amp;frais de transaction</translation>
     </message>
     <message>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="obsolete">Montant réservé qui ne &quot;stake&quot; pas est reste utilisable pour réalisés des envois à tout moment.</translation>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
+        <translation type="unfinished">Montant réservé qui ne &quot;sprout&quot; pas est reste utilisable pour réalisés des envois à tout moment.</translation>
     </message>
     <message>
-        <location line="-15"/>
+        <location line="-46"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. A fee of 5 BITB is recommended. Fees help support the BitBean network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Reserved amount does not participate in sprouting and is therefore spendable at any time.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="+61"/>
         <source>Reserve</source>
         <translation>Réserve</translation>
     </message>
@@ -2101,8 +2101,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau BitBean mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation type="obsolete">Stake:</translation>
+        <source>Sprout:</source>
+        <translation type="obsolete">Sprout:</translation>
     </message>
     <message>
         <location line="-331"/>
@@ -2248,8 +2248,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <translation type="obsolete">Montant total des transactions nécessitant confirmation, et ne figurant pas encore dans la balance actuelle</translation>
     </message>
     <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation type="obsolete">Montant total des transactions en &quot;staking&quot; et ne figurant pas encore dans la balance actuelle</translation>
+        <source>Total of coins that was sproutd, and do not yet count toward the current balance</source>
+        <translation type="obsolete">Montant total des transactions en &quot;sprouting&quot; et ne figurant pas encore dans la balance actuelle</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+130"/>
@@ -4081,7 +4081,7 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4506,7 +4506,7 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="unfinished">Erreur: Portefeuille déverrouillé uniquement pour &quot;stacking&quot; , impossible d&apos;effectuer cette transaction</translation>
     </message>
     <message>
@@ -4637,7 +4637,7 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
         <translation type="obsolete">Connexion à l&apos;adresse fournie. Utiliser la notation [machine]:port pour les adresses IPv6</translation>
     </message>
     <message>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Sprout your coins to support network and gain reward (default: 1)</source>
         <translation type="obsolete">Stacker vos monnaies afin de soutenir le réseau et d&apos;obtenir des intérêts  (default: 1)</translation>
     </message>
     <message>
@@ -4963,7 +4963,7 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte BitBean&quot; admin@foo
         <translation type="obsolete">Algorithmes de  chiffrements acceptés (défaut: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="obsolete">Erreur: Portefeuille déverrouillé uniquement pour &quot;stacking&quot; , impossible d&apos;effectuer cette transaction</translation>
     </message>
     <message>

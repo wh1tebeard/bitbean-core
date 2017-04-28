@@ -204,8 +204,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Para &quot;staking&quot; só</translation>
+        <source>For sprouting only</source>
+        <translation>Para &quot;sprouting&quot; só</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -595,7 +595,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>BitbeanGUI</name>
     <message>
-        <location filename="../bitbean.cpp" line="+103"/>
+        <location filename="../bitbean.cpp" line="+104"/>
         <source>A fatal error occurred. BitBean can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -620,7 +620,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished">Amosar vista xeral do moedeiro</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Send Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -630,7 +630,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-7"/>
         <source>&amp;Receive Beans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -640,7 +640,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished">Amosa a lista de dirección para recibir os pagos</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
         <source>&amp;Transactions</source>
         <translation type="unfinished">&amp;Transacciones</translation>
     </message>
@@ -955,7 +955,7 @@ Dirección: %4
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+105"/>
+        <location line="+106"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -971,8 +971,8 @@ Dirección: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
-        <location line="+457"/>
+        <location line="-454"/>
+        <location line="+458"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n hora</numerusform>
@@ -980,7 +980,7 @@ Dirección: %4
         </translation>
     </message>
     <message>
-        <location line="-787"/>
+        <location line="-788"/>
         <source>&amp;Encrypt Vault...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1021,7 +1021,7 @@ Dirección: %4
     </message>
     <message numerus="yes">
         <location line="+25"/>
-        <location line="+457"/>
+        <location line="+458"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n día</numerusform>
@@ -1029,7 +1029,7 @@ Dirección: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-453"/>
+        <location line="-454"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1087,34 +1087,38 @@ Dirección: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished">&quot;Staking&quot;.&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
+        <location line="+118"/>
+        <source>Bean Sprout Info:&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">&quot;Sprouting&quot;.&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation type="unfinished">Non &quot;staking&quot; porque a carteira está bloqueada</translation>
+        <source>Not sprouting because wallet is locked</source>
+        <translation type="unfinished">Non &quot;sprouting&quot; porque a carteira está bloqueada</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation type="unfinished">Non &quot;staking&quot; porque a carteira está sen conexión</translation>
+        <source>Not sprouting because wallet is offline</source>
+        <translation type="unfinished">Non &quot;sprouting&quot; porque a carteira está sen conexión</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation type="unfinished">Non &quot;staking&quot; porque a carteira está a sincronizar.</translation>
+        <source>Not sprouting because wallet is syncing</source>
+        <translation type="unfinished">Non &quot;sprouting&quot; porque a carteira está a sincronizar.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature beans</source>
+        <source>Not sprouting because you don&apos;t have mature beans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking</source>
-        <translation type="unfinished">Non &quot;staking&quot;</translation>
+        <source>Not sprouting</source>
+        <translation type="unfinished">Non &quot;sprouting&quot;</translation>
     </message>
 </context>
 <context>
@@ -1314,24 +1318,24 @@ Dirección: %4
         <translation type="obsolete">Descargados %1 bloques do historial de transaccións.</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="obsolete">&quot;Staking&quot;.&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
+        <source>Sprouting.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation type="obsolete">&quot;Sprouting&quot;.&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
     </message>
     <message>
-        <source>Not staking because wallet is locked</source>
-        <translation type="obsolete">Non &quot;staking&quot; porque a carteira está bloqueada</translation>
+        <source>Not sprouting because wallet is locked</source>
+        <translation type="obsolete">Non &quot;sprouting&quot; porque a carteira está bloqueada</translation>
     </message>
     <message>
-        <source>Not staking because wallet is offline</source>
-        <translation type="obsolete">Non &quot;staking&quot; porque a carteira está sen conexión</translation>
+        <source>Not sprouting because wallet is offline</source>
+        <translation type="obsolete">Non &quot;sprouting&quot; porque a carteira está sen conexión</translation>
     </message>
     <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation type="obsolete">Non &quot;staking&quot; porque a carteira está a sincronizar.</translation>
+        <source>Not sprouting because wallet is syncing</source>
+        <translation type="obsolete">Non &quot;sprouting&quot; porque a carteira está a sincronizar.</translation>
     </message>
     <message>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation type="obsolete">Non &quot;staking&quot; porque non tes moedas maduras</translation>
+        <source>Not sprouting because you don&apos;t have mature coins</source>
+        <translation type="obsolete">Non &quot;sprouting&quot; porque non tes moedas maduras</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s) ago</source>
@@ -1424,8 +1428,8 @@ Dirección: %4
         </translation>
     </message>
     <message>
-        <source>Not staking</source>
-        <translation type="obsolete">Non &quot;staking&quot;</translation>
+        <source>Not sprouting</source>
+        <translation type="obsolete">Non &quot;sprouting&quot;</translation>
     </message>
 </context>
 <context>
@@ -3767,7 +3771,7 @@ Se o arquivo non existe, debes crealo con permisos de so lectura para o propieta
     </message>
     <message>
         <location line="+1"/>
-        <source>Stake your beans to support network and gain reward (default: 1)</source>
+        <source>Sprout your beans to support network and gain reward (default: 1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4191,7 +4195,7 @@ Se o arquivo non existe, debes crealo con permisos de so lectura para o propieta
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for sprouting only, unable to create transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

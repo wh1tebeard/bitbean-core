@@ -61,7 +61,7 @@ QT_TRANSLATE_NOOP("bitbean-core", "Find peers using internet relay chat (default
 QT_TRANSLATE_NOOP("bitbean-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
 QT_TRANSLATE_NOOP("bitbean-core", "Bind to given address. Use [host]:port notation for IPv6"),
 QT_TRANSLATE_NOOP("bitbean-core", "Find peers using DNS lookup (default: 1)"),
-QT_TRANSLATE_NOOP("bitbean-core", "Stake your beans to support network and gain reward (default: 1)"),
+QT_TRANSLATE_NOOP("bitbean-core", "Sprout your beans to support network and gain reward (default: 1)"),
 QT_TRANSLATE_NOOP("bitbean-core", ""
 "Sync time with other nodes. Disable if time on your system is precise e.g. "
 "syncing with NTP (default: 1)"),
@@ -175,7 +175,7 @@ QT_TRANSLATE_NOOP("bitbean-core", ""
 "Unable to bind to %s on this computer. BitBean is probably already running."),
 QT_TRANSLATE_NOOP("bitbean-core", "Unable to bind to %s on this computer (bind returned error %d, %s)"),
 QT_TRANSLATE_NOOP("bitbean-core", "Error: Wallet locked, unable to create transaction  "),
-QT_TRANSLATE_NOOP("bitbean-core", "Error: Wallet unlocked for staking only, unable to create transaction."),
+QT_TRANSLATE_NOOP("bitbean-core", "Error: Wallet unlocked for sprouting only, unable to create transaction."),
 QT_TRANSLATE_NOOP("bitbean-core", ""
 "Error: This transaction requires a transaction fee of at least %s because of "
 "its amount, complexity, or use of recently received funds  "),
